@@ -1,0 +1,1026 @@
+@font-face {
+	font-family: GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-regular.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-ultrabold.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-medium.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-light.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProText;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprotext-regular.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProText;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprotext-light.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProText;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprotext-ultralight.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProText;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprotext-bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: GTEestiProText;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprotext-medium.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: ph-GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-regular.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: ph-GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-light.woff2") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: ph-GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: ph-GTEestiProDisplay;
+	src: url("https://cdn1.ozone.ru/graphics/fonts/gteestipro/gteestiprodisplay-medium.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.dark {
+	background-color: #f2f3f5;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.paddingPlusText {
+	padding-top: 16px;
+}
+
+@media only screen and (min-width: 1440px) {
+	.paddingPlusText {
+		padding-top: 48px;
+	}
+}
+
+.paddingPlusDesc {
+	padding-top: 20px;
+}
+
+@media only screen and (min-width: 960px) {
+	.padSupperPadding {
+		padding: 0 95px;
+	}
+}
+
+.landingLongtext p {
+	font-family: GTEestiProText;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.38;
+	letter-spacing: 0.37px;
+	text-align: left;
+	color: #001b39;
+	margin: 0;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext p {
+		font-size: 18px;
+		line-height: 1.33;
+		letter-spacing: 0.42px;
+	}
+}
+
+.landingLongtext h3 {
+	font-family: GTEestiProText;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.38;
+	letter-spacing: 0.37px;
+	color: #005bff;
+	padding-bottom: 10px;
+}
+
+.landingLongtext .blueText {
+	color: #005bff;
+}
+
+.landingLongtext .landingLongtextTop {
+	width: 100%;
+	height: 224px;
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-top-mobile@2x.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .landingLongtextTop {
+		width: 100%;
+		height: 436px;
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-top-pad@2x-min.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .landingLongtextTop {
+		margin-top: 30px;
+		width: 100%;
+		height: 502px;
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-top-min.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.landingLongtext .landingLongtextHeader {
+	padding: 0 16px;
+	height: inherit;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: row;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-items: center;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .landingLongtextHeader {
+		padding: 0 180px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .landingLongtextHeader {
+		height: inherit;
+		padding: 0 400px;
+	}
+}
+
+.landingLongtext .landingLongtextHeader_desc h1 {
+	font-family: GTEestiProDisplay;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.17;
+	letter-spacing: 0.51px;
+	color: #ffffff;
+	margin: 0 45px;
+	text-align: center;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .landingLongtextHeader_desc {
+		margin-left: 0;
+	}
+
+	.landingLongtext .landingLongtextHeader_desc h1 {
+		font-size: 48px;
+		line-height: 1.21;
+		letter-spacing: 0.36px;
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .landingLongtextHeader_desc h1 {
+		margin-top: 0;
+		font-size: 54px;
+		line-height: 1.22;
+		letter-spacing: 0.41px;
+	}
+}
+
+.landingLongtext .landingLongtextHeader_desc p {
+	font-family: GTEestiProText;
+	font-size: 16px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.25;
+	letter-spacing: 0.37px;
+	text-align: center;
+	color: #ffffff;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .landingLongtextHeader_desc p {
+		font-size: 26px;
+		font-weight: 300;
+		line-height: 1.31;
+		letter-spacing: 0.61px;
+		width: 370px;
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .landingLongtextHeader_desc p {
+		font-size: 28px;
+		font-weight: 300;
+		line-height: 1.29;
+		letter-spacing: 0.65px;
+		width: 100%;
+	}
+}
+
+.landingLongtext .landingLongtextTitle h2 {
+	padding: 42px 16px 22px;
+	font-family: GTEestiProDisplay;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.18;
+	letter-spacing: 0.41px;
+	text-align: center;
+	color: #001a34;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .landingLongtextTitle h2 {
+		padding: 64px 0 52px;
+		font-size: 38px;
+		line-height: 1.12;
+		letter-spacing: 0.7px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .landingLongtextTitle h2 {
+		padding: 70px 0 62px;
+	}
+}
+
+.landingLongtext .nonPadding h2 {
+	padding: 0px 16px;
+}
+
+.landingLongtext .nonPaddingTop h2 {
+	padding: 0px 16px 22px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .nonPadding h2 {
+		padding: 20px 16px 0;
+	}
+
+	.landingLongtext .nonPaddingTop h2 {
+		padding: 0px 16px 52px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .headerDesk h2 {
+		padding: 70px 0 0px;
+	}
+
+	.landingLongtext .nonPaddingTop h2 {
+		padding: 0px 16px 0px;
+	}
+}
+
+.landingLongtext .blueBorder {
+	border-radius: 13px;
+	border: solid 2px #005bff;
+	padding: 30px 20px;
+	margin-bottom: 35px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .blueBorder {
+		padding: 35px 31px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .blueBorder {
+		padding: 35px 52px;
+	}
+}
+
+.landingLongtext .whiteBorder {
+	border-radius: 13px;
+	border: solid 2px #fff;
+	padding: 20px 20px;
+	margin-bottom: 35px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .whiteBorder {
+		padding: 35px 45px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .whiteBorder {
+		padding: 35px 52px;
+	}
+}
+
+.landingLongtext .aboutTea {
+	padding: 30px 0;
+}
+
+.landingLongtext .aboutTea .avtor .avtorAvatar {
+	margin-bottom: 20px;
+}
+
+.landingLongtext .aboutTea .avtor .avtorAvatar .avtorAvatarimg {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/avtor_mobile@2x.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 94px;
+}
+
+.landingLongtext .aboutTea .avtor .avtorAvatar p {
+	text-align: center;
+	color: #4d5f71;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.33px;
+}
+
+.landingLongtext .aboutTea .avtor .avtorAvatar .title {
+	font-family: GTEestiProDisplay;
+	font-weight: 700;
+}
+
+.landingLongtext .aboutTea .avtor .avtorAvatar .subtitle {
+	font-family: GTEestiProText;
+	font-weight: 500;
+}
+
+.landingLongtext .aboutTea .avtor .avtorText {
+	margin: 0 16px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .aboutTea .avtor {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: row;
+		-webkit-box-pack: space-between;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: space-between;
+		justify-content: space-between;
+		-webkit-box-align: top;
+		-webkit-align-items: top;
+		-ms-flex-align: top;
+		align-items: top;
+	}
+
+	.landingLongtext .aboutTea .avtor .avtorAvatar {
+		width: 150px;
+		margin-right: 35px;
+	}
+
+	.landingLongtext .aboutTea .avtor .avtorAvatar .avtorAvatarimg {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/avtor@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 150px;
+		height: 116px;
+	}
+
+	.landingLongtext .aboutTea .avtor .avtorText {
+		margin: 0;
+	}
+
+	.landingLongtext .aboutTea .avtor .avtorText p {
+		font-size: 18px;
+		line-height: 1.33;
+		letter-spacing: 0.42px;
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .aboutTea {
+		padding: 50px 0;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .aboutTea {
+		padding: 70px 0px;
+		max-width: 950px;
+		margin: 0 auto;
+	}
+}
+
+.landingLongtext .footnote {
+	margin: 30px 16px;
+}
+
+.landingLongtext .footnote .footnoteImg {
+	margin-bottom: 20px;
+}
+
+.landingLongtext .footnote .footnoteImg .footnoteImg--1 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-2-mobile@2x.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 100px;
+}
+
+.landingLongtext .footnote .footnoteImg .footnoteImg--2 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-4-mobile@2x.jpg) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 162px;
+}
+
+.landingLongtext .footnote .footnoteImg .footnoteImg--3 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-6-mobile@2x.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 91px;
+}
+
+.landingLongtext .footnote .footnoteImg .footnoteImg--4 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-8-mobile@2x.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 68px;
+}
+
+.landingLongtext .footnote .footnoteImg .footnoteImg--5 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-11-mobile@2x.jpg) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 159px;
+}
+
+.landingLongtext .footnote .footnoteImg .footnoteImg--7 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-14-mobile@2x.jpg) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+	height: 163px;
+}
+
+.landingLongtext .footnote .footnotePic {
+	margin: 0 auto 20px;
+}
+
+.landingLongtext .footnote .footnotePic .footnotePic--1 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-1@2x.png) no-repeat center center;
+	background-size: contain;
+	height: 53px;
+	width: 100%;
+}
+
+.landingLongtext .footnote .footnotePic .footnotePic--2 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-3@2x.png) no-repeat center center;
+	background-size: contain;
+	height: 53px;
+	width: 100%;
+}
+
+.landingLongtext .footnote .footnotePic .footnotePic--3 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-5@2x.png) no-repeat center center;
+	background-size: contain;
+	height: 53px;
+	width: 100%;
+}
+
+.landingLongtext .footnote .footnotePic .footnotePic--4 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-7@2x.png) no-repeat center center;
+	background-size: contain;
+	height: 67px;
+	width: 100%;
+}
+
+.landingLongtext .footnote .footnotePic .footnotePic--5 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-9@2x.png) no-repeat center center;
+	background-size: contain;
+	height: 60px;
+	width: 100%;
+}
+
+.landingLongtext .footnote .footnotePic .footnotePic--6 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-10@2x.png) no-repeat center center;
+	background-size: contain;
+	height: 64px;
+	width: 100%;
+}
+
+.landingLongtext .footnote .footnotePic .footnotePic--7 {
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-13@2x.png) no-repeat center center;
+	background-size: contain;
+	height: 64px;
+	width: 100%;
+}
+
+.landingLongtext .footnote .footnoteBlock:nth-child(1) .footnotePic {
+	margin: 0 auto 30px;
+}
+
+.landingLongtext .footnote .footnoteBlock:nth-child(2) .footnotePic {
+	margin: 30px;
+}
+
+.landingLongtext .footnote .footnoteDesc .title {
+	font-family: GTEestiProText;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.22;
+	letter-spacing: 0.42px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .footnote {
+		margin: 30px 0px 0px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: space-between;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: space-between;
+		justify-content: space-between;
+		flex-direction: row-reverse;
+	}
+
+	.landingLongtext .footnote .footnoteBlock {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: top;
+		-webkit-align-items: top;
+		-ms-flex-align: top;
+		align-items: top;
+		-webkit-box-pack: space-between;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: space-between;
+		justify-content: space-between;
+	}
+
+	.landingLongtext .footnote .footnoteBlock:nth-child(1) .footnotePic {
+		margin: 0 35px 0 0;
+	}
+
+	.landingLongtext .footnote .footnoteBlock:nth-child(2) .footnotePic {
+		margin: 0 35px 0 0;
+	}
+
+	.landingLongtext .footnote .footnoteBlock:nth-child(2) {
+		margin-top: 14px;
+	}
+
+	.landingLongtext .footnote .footnoteImg {
+		margin-bottom: 35px;
+		margin-left: 35px;
+		width: 195px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--1 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-2-pad@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 160px;
+		height: 92px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--2 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-4-pad@2x.jpg) no-repeat center center;
+		background-size: contain;
+		width: 160px;
+		height: 146px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--3 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-6-pad@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 160px;
+		height: 89px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--4 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-8-pad@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 160px;
+		height: 84px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--5 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-11-pad@2x.jpg) no-repeat center center;
+		background-size: contain;
+		width: 160px;
+		height: 130px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--7 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-14-pad@2x.jpg) no-repeat center center;
+		background-size: contain;
+		width: 160px;
+		height: 153px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--8 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-0-pad@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 160px;
+		height: 153px;
+	}
+
+	.landingLongtext .footnote .blueBorder {
+		padding: 35px 31px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: top;
+		-webkit-align-items: top;
+		-ms-flex-align: top;
+		align-items: top;
+		-webkit-box-pack: space-between;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: space-between;
+		justify-content: space-between;
+	}
+
+	.landingLongtext .footnote .footnotePic {
+		margin: 0 35px 0 0;
+	}
+
+	.landingLongtext .footnote .footnotePic .footnotePic--1 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-1@2x.png) no-repeat center center;
+		background-size: contain;
+		height: 53px;
+		width: 56px;
+	}
+
+	.landingLongtext .footnote .footnotePic .footnotePic--2 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-3@2x.png) no-repeat center center;
+		background-size: contain;
+		height: 53px;
+		width: 56px;
+	}
+
+	.landingLongtext .footnote .footnotePic .footnotePic--3 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-5@2x.png) no-repeat center center;
+		background-size: contain;
+		height: 53px;
+		width: 56px;
+	}
+
+	.landingLongtext .footnote .footnotePic .footnotePic--4 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-7@2x.png) no-repeat center center;
+		background-size: contain;
+		height: 67px;
+		width: 58px;
+	}
+
+	.landingLongtext .footnote .footnotePic .footnotePic--5 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-9@2x.png) no-repeat center center;
+		background-size: contain;
+		height: 64px;
+		width: 64px;
+	}
+
+	.landingLongtext .footnote .footnotePic .footnotePic--6 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-10@2x.png) no-repeat center center;
+		background-size: contain;
+		height: 64px;
+		width: 64px;
+	}
+
+	.landingLongtext .footnote .footnotePic .footnotePic--7 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-13@2x.png) no-repeat center center;
+		background-size: contain;
+		height: 67px;
+		width: 58px;
+	}
+
+	.landingLongtext .footnote .footnoteDesc .title {
+		font-size: 22px;
+		line-height: 1.18;
+		letter-spacing: 0.51px;
+	}
+
+	.landingLongtext .footnoteRight {
+		flex-direction: row;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .footnote {
+		margin: 30px 0px 0px;
+		/*
+
+            .footnoteBlock:nth-child(1) .footnotePic {
+                margin: 0 35px 0 0;
+            }
+
+            .footnoteBlock:nth-child(2) .footnotePic {
+                margin: 0 35px 0 0;
+            }
+
+            .footnoteBlock:nth-child(2) {
+                margin-top: 14px;
+            }*/
+	}
+
+	.landingLongtext .footnote .footnoteBlock {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+
+	.landingLongtext .footnote .footnoteImg {
+		margin-bottom: 35px;
+		margin-left: 75px;
+		width: 265px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--1 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-2@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 253px;
+		height: 146px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--2 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-4-desk@2x.jpg) no-repeat center center;
+		background-size: contain;
+		width: 253px;
+		height: 196px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--3 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-6-desk@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 253px;
+		height: 116px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--4 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-8-desk@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 253px;
+		height: 106px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--5 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-11-desk@2x.jpg) no-repeat center center;
+		background-size: contain;
+		width: 253px;
+		height: 168px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--7 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-14-pad@2x.jpg) no-repeat center center;
+		background-size: contain;
+		width: 253px;
+		height: 209px;
+	}
+
+	.landingLongtext .footnote .footnoteImg .footnoteImg--8 {
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-0-pad@2x.png) no-repeat center center;
+		background-size: contain;
+		width: 253px;
+		height: 153px;
+	}
+
+	.landingLongtext .footnote .blueBorder {
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+
+	.landingLongtext .footnote .footnotePic {
+		margin: 0 35px 0 0;
+	}
+
+	.landingLongtext .footnote .footnoteDesc .title {
+		line-height: 1;
+	}
+}
+
+.landingLongtext .questionAnswer {
+	margin: 30px 0 0;
+}
+
+.landingLongtext .questionAnswer .questionAnswerDesc {
+	margin: 0 16px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .questionAnswer .questionAnswerDesc {
+		margin: 0px;
+	}
+}
+
+.landingLongtext .questionAnswer p {
+	margin-bottom: 16px;
+}
+
+.landingLongtext .questionAnswer .blueText {
+	font-family: GTEestiProDisplay;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.22;
+	letter-spacing: 0.33px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .questionAnswer .blueText {
+		font-size: 22px;
+		line-height: 1.27;
+		letter-spacing: 0.41px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .questionAnswer .blueText {
+		font-size: 24px;
+		line-height: 1.25;
+		letter-spacing: 0.44px;
+	}
+}
+
+.landingLongtext .questionAnswer .blueBorder {
+	padding: 30px 20px 14px;
+}
+
+.landingLongtext .questionAnswer .blueBorder .blueText {
+	font-family: GTEestiProDisplay;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.38;
+	letter-spacing: 0.37px;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .questionAnswer .blueBorder {
+		padding: 35px 31px 20px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .questionAnswer .blueBorder {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .questionAnswer {
+		max-width: 1440px;
+		margin: 30px auto 0;
+	}
+}
+
+.landingLongtext .landingLongtextFooter {
+	width: 100%;
+	height: 151px;
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-footer-mobile@2x.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .landingLongtextFooter {
+		width: 100%;
+		height: 342px;
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-footer-pad@2x.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .landingLongtextFooter {
+		margin-top: 30px;
+		width: 100%;
+		height: 560px;
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-footer-desk.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.landingLongtext .aboutPuer .aboutPuerImg .puerImg {
+	margin: 30px 0;
+	width: 100%;
+	height: 213px;
+	background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-12-mobile@2x.jpg) no-repeat center center;
+	background-size: contain;
+}
+
+@media only screen and (min-width: 960px) {
+	.landingLongtext .aboutPuer .aboutPuerImg .puerImg {
+		margin: 30px 0;
+		width: 100%;
+		height: 340px;
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-12-pad@2x.jpg) no-repeat center center;
+		background-size: contain;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .aboutPuer .aboutPuerImg .puerImg {
+		margin: 0px 0;
+		width: 577px;
+		height: 100%;
+		background: url(https://cdn1.ozone.ru/graphics/seo-landing/fmcg/tea/img/tea-12-desk@2x1.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.landingLongtext .aboutPuer {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: top;
+		-webkit-align-items: top;
+		-ms-flex-align: top;
+		align-items: top;
+		-webkit-box-pack: space-between;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: space-between;
+		justify-content: space-between;
+		margin: 20px 0 50px;
+	}
+
+	.landingLongtext .aboutPuer .aboutPuerImg {
+		margin-right: 30px;
+		max-height: inherit;
+	}
+}
